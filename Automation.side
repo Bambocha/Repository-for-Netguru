@@ -1,0 +1,271 @@
+{
+  "id": "42d40727-b3cf-4317-a72d-a86399660997",
+  "version": "2.0",
+  "name": "Automation",
+  "url": "https://bilet.intercity.pl/logowanie.jsp",
+  "tests": [{
+    "id": "a0b80b82-6809-4d07-94b7-fe624984e563",
+    "name": "abc",
+    "commands": [{
+      "id": "c3bf83cf-1b2a-4d63-ba33-b731ec16e702",
+      "comment": "",
+      "command": "open",
+      "target": "/logowanie.jsp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2b65d521-5436-416e-8e72-2829ccf1f206",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1008x811",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "20db698e-0531-48a5-91ca-a95c61a61dcd",
+      "comment": "",
+      "command": "click",
+      "target": "name=login",
+      "targets": [
+        ["name=login", "name"],
+        ["css=div:nth-child(2) input", "css:finder"],
+        ["xpath=//input[@name='login']", "xpath:attributes"],
+        ["xpath=//form[@id='icWebUserLogin']/div/fieldset/input", "xpath:idRelative"],
+        ["xpath=//fieldset/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "65565205-c9f6-447f-b1c8-6eea1a0ff09c",
+      "comment": "",
+      "command": "click",
+      "target": "name=login",
+      "targets": [
+        ["name=login", "name"],
+        ["css=div:nth-child(2) input", "css:finder"],
+        ["xpath=//input[@name='login']", "xpath:attributes"],
+        ["xpath=//form[@id='icWebUserLogin']/div/fieldset/input", "xpath:idRelative"],
+        ["xpath=//fieldset/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7e67b82f-ff09-4962-a845-f1d5f7550587",
+      "comment": "",
+      "command": "type",
+      "target": "name=login",
+      "targets": [
+        ["name=login", "name"],
+        ["css=div:nth-child(2) input", "css:finder"],
+        ["xpath=//input[@name='login']", "xpath:attributes"],
+        ["xpath=//form[@id='icWebUserLogin']/div/fieldset/input", "xpath:idRelative"],
+        ["xpath=//fieldset/input", "xpath:position"]
+      ],
+      "value": "abc"
+    }, {
+      "id": "1aaa7d4c-2c62-41be-ae38-a3f5c876569a",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=div:nth-child(4) input", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//form[@id='icWebUserLogin']/div[2]/fieldset/input", "xpath:idRelative"],
+        ["xpath=//div[2]/fieldset/input", "xpath:position"]
+      ],
+      "value": "12345"
+    }, {
+      "id": "31121857-2e0a-470b-b2e4-fc64e4d64a51",
+      "comment": "",
+      "command": "click",
+      "target": "name=actlogin",
+      "targets": [
+        ["name=actlogin", "name"],
+        ["css=.alignRight > input", "css:finder"],
+        ["xpath=//input[@name='actlogin']", "xpath:attributes"],
+        ["xpath=//form[@id='icWebUserLogin']/div[5]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "edfc1798-e4e3-4adf-9260-ecd2690c4fd8",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "9dd361d1-d859-45ab-8911-ffab6ba938aa",
+    "name": "abc2",
+    "commands": [{
+      "id": "ff64a6fa-1a64-43ab-800c-0411bb4319d9",
+      "comment": "",
+      "command": "open",
+      "target": "/logowanie.jsp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "da0b3006-0671-4965-8f79-d8455451d898",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Założ konto",
+      "targets": [
+        ["linkText=Założ konto", "linkText"],
+        ["css=.orangelink", "css:finder"],
+        ["xpath=//a[contains(text(),'Założ konto')]", "xpath:link"],
+        ["xpath=//div[@id='print_area']/div/div/div[2]/div/div/div[2]/div/div[3]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/rejestracja.jsp')]", "xpath:href"],
+        ["xpath=//div[3]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Założ konto')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "36f53ff5-e331-436d-94ac-830989946bd0",
+      "comment": "",
+      "command": "click",
+      "target": "name=login",
+      "targets": [
+        ["name=login", "name"],
+        ["css=#wprowadzDaneWrapper fieldset:nth-child(2) > input", "css:finder"],
+        ["xpath=//input[@name='login']", "xpath:attributes"],
+        ["xpath=//div[@id='wprowadzDaneWrapper']/div/fieldset[2]/input", "xpath:idRelative"],
+        ["xpath=//fieldset[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c4781b96-1fa1-4c08-8f9a-612bd9a0ada6",
+      "comment": "",
+      "command": "type",
+      "target": "name=login",
+      "targets": [
+        ["name=login", "name"],
+        ["css=#wprowadzDaneWrapper fieldset:nth-child(2) > input", "css:finder"],
+        ["xpath=//input[@name='login']", "xpath:attributes"],
+        ["xpath=//div[@id='wprowadzDaneWrapper']/div/fieldset[2]/input", "xpath:idRelative"],
+        ["xpath=//fieldset[2]/input", "xpath:position"]
+      ],
+      "value": "NewLogin12#3"
+    }, {
+      "id": "2d5ff0cf-98bb-4fb4-936c-74a95954caa4",
+      "comment": "",
+      "command": "assertAlert",
+      "target": "Login musi zawierać min. 6 znaków (litery lub cyfry). Nie może zawierać  znaków diakrytycznych. (np. ą, ü, ñ).",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e5a36e88-db11-4c30-90c3-dc20f1b6646b",
+      "comment": "",
+      "command": "click",
+      "target": "name=nazwa",
+      "targets": [
+        ["name=nazwa", "name"],
+        ["css=#wprowadzDaneWrapper fieldset:nth-child(3) > input", "css:finder"],
+        ["xpath=//input[@name='nazwa']", "xpath:attributes"],
+        ["xpath=//div[@id='wprowadzDaneWrapper']/div/fieldset[3]/input", "xpath:idRelative"],
+        ["xpath=//fieldset[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "901d53fe-e1f5-49f8-917d-6061b8c1a75c",
+      "comment": "",
+      "command": "type",
+      "target": "name=nazwa",
+      "targets": [
+        ["name=nazwa", "name"],
+        ["css=#wprowadzDaneWrapper fieldset:nth-child(3) > input", "css:finder"],
+        ["xpath=//input[@name='nazwa']", "xpath:attributes"],
+        ["xpath=//div[@id='wprowadzDaneWrapper']/div/fieldset[3]/input", "xpath:idRelative"],
+        ["xpath=//fieldset[3]/input", "xpath:position"]
+      ],
+      "value": "Jan Przykładówskiii"
+    }, {
+      "id": "673e7411-cce0-4259-8df3-18456f8917fd",
+      "comment": "",
+      "command": "type",
+      "target": "name=haslo",
+      "targets": [
+        ["name=haslo", "name"],
+        ["css=#wprowadzDaneWrapper fieldset:nth-child(4) > input", "css:finder"],
+        ["xpath=//input[@name='haslo']", "xpath:attributes"],
+        ["xpath=//div[@id='wprowadzDaneWrapper']/div/fieldset[4]/input", "xpath:idRelative"],
+        ["xpath=//fieldset[4]/input", "xpath:position"]
+      ],
+      "value": "Tetsi1$*3"
+    }, {
+      "id": "f55fc301-a99e-48d3-91f0-8964b4a4d03f",
+      "comment": "",
+      "command": "click",
+      "target": "name=powt_hasla",
+      "targets": [
+        ["name=powt_hasla", "name"],
+        ["css=#wprowadzDaneWrapper fieldset:nth-child(5) > input", "css:finder"],
+        ["xpath=//input[@name='powt_hasla']", "xpath:attributes"],
+        ["xpath=//div[@id='wprowadzDaneWrapper']/div/fieldset[5]/input", "xpath:idRelative"],
+        ["xpath=//fieldset[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "404438f0-a9e5-42c2-8833-8361ebd17631",
+      "comment": "",
+      "command": "type",
+      "target": "name=powt_hasla",
+      "targets": [
+        ["name=powt_hasla", "name"],
+        ["css=#wprowadzDaneWrapper fieldset:nth-child(5) > input", "css:finder"],
+        ["xpath=//input[@name='powt_hasla']", "xpath:attributes"],
+        ["xpath=//div[@id='wprowadzDaneWrapper']/div/fieldset[5]/input", "xpath:idRelative"],
+        ["xpath=//fieldset[5]/input", "xpath:position"]
+      ],
+      "value": "Tetsi1$*3"
+    }, {
+      "id": "79c3f2a2-9635-4360-9449-10b27948bfd0",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=#wprowadzDaneWrapper fieldset:nth-child(6) > input", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[@id='wprowadzDaneWrapper']/div/fieldset[6]/input", "xpath:idRelative"],
+        ["xpath=//fieldset[6]/input", "xpath:position"]
+      ],
+      "value": "test3@test.com"
+    }, {
+      "id": "ffbf5270-b85c-470e-a64b-4a616512c716",
+      "comment": "",
+      "command": "click",
+      "target": "name=actlogin",
+      "targets": [
+        ["name=actlogin", "name"],
+        ["css=.wrapperSingleInput > input", "css:finder"],
+        ["xpath=//input[@name='actlogin']", "xpath:attributes"],
+        ["xpath=//form[@id='icWebUserRegister']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5d74b325-590a-4775-840d-9665c442dc6b",
+      "comment": "",
+      "command": "assertAlert",
+      "target": "Zapoznanie z Regulaminem e-IC i jego akceptacja są warunkiem koniecznym do założenia konta w systemie.",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e2c05ae2-bdc4-466f-86a4-08e25d252a05",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "adb42a6d-6855-4c90-81e8-25abb19bb73e",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["a0b80b82-6809-4d07-94b7-fe624984e563"]
+  }],
+  "urls": ["https://bilet.intercity.pl/", "https://bilet.intercity.pl/logowanie.jsp"],
+  "plugins": []
+}
